@@ -1,0 +1,9 @@
+.menuActive {
+  font-weight: bolder;
+  border-bottom: 1px solid black;
+  color: rgb(21, 184, 127) !important;
+}
+
+.menuActive:hover{
+    color: rgb(255, 0, 111) !important;
+}

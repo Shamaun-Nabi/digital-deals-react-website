@@ -1,0 +1,31 @@
+.titleBrand {
+    font-weight: 600;
+    color: rgb(255, 0, 111);
+  }
+  .getStarted {
+    border-radius: 20px !important;
+  }
+  .showcaseIMG {
+    height: 350px;
+  }
+  
+  .pulse {
+    animation: 2.5s infinite;
+    animation-name: pulse;
+    animation-fill-mode: both;
+  }
+  @keyframes pulse {
+    0% {
+      transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+    }
+    50% {
+      transform: scale3d(1.05, 1.05, 1.05);
+      transform: scale3d(1.05, 1.05, 1.05);
+    }
+    100% {
+      transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+    }
+  }
+  
