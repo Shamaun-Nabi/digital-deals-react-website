@@ -12,9 +12,9 @@ const Common = (props) => {
               <strong>{props.Name}</strong> <br />
               <strong className="titleBrand">DigitalDeals</strong>
             </h2>
-            <h6>{props.para}</h6>
+            <h6 className="mt-3">{props.para}</h6>
             <NavLink
-              className="btn btn-outline-primary getStarted"
+              className="btn btn-outline-primary getStarted mt-3"
               to={props.link}
             >
               {props.btnData}
